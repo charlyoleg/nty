@@ -1,0 +1,13 @@
+# .gitignore for Nty
+*~
+*.pdf
+node_modules/
+.venv
+__pycache__/
+# for sphinc-doc and others
+build/
+# web-ui (aka front-end)
+web_ui/dist/
+# https web_server
+web_server/dist/
+web_server/certificates/
