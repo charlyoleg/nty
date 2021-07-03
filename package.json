@@ -11,6 +11,7 @@
     "nty_tui": "bin/nty_tui.js"
   },
   "scripts": {
+    "prepack": "run-s clean_cli build_cli",
     "clean_cli": "rm -fr core/dist",
     "build_cli": "tsc --project core/ts",
     "test": "echo \"Error: no test specified\" && exit 1"
