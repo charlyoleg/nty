@@ -11,6 +11,20 @@ Ideally, *Nty* should be usable as *CLI*, *TUI* (a.k.a. *text-based UI* or *term
 
 ## Getting started
 
+### Using Nty
+
+In a bash terminal:
+
+    mkdir myteam
+    cd myteam
+    mpm init -y
+    npm i nty
+    npx nty
+    npx nty_web_ui
+
+
+### Developing Nty
+
 In a bash terminal:
 
     git clone https://github.com/charlyoleg/nty
