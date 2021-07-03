@@ -10,7 +10,7 @@ Presentation
 
 This repository is the first draft of *Nty*. The intention is to distribute *Nty* as *npm package*.
 
-Ideally, *Nty* should be usable from *CLI*, *terminal-UI* and *Web-UI* as git-bug_.
+Ideally, *Nty* should be usable as *CLI*, *TUI* (a.k.a. *text-based UI* or *terminal-UI*), *GUI* or *Web-UI* (a.k.a. local *web-server*) as git-bug_.
 
 .. _git-bug : https://github.com/MichaelMure/git-bug
 

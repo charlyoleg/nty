@@ -2,8 +2,14 @@
   "name": "nty",
   "version": "0.1.5",
   "description": "small and medium team organization tool",
-  "main": "bin/nty_cli.js",
+  "main": "core/dist/nty.js",
   "types": "core/dist/nty.d.ts",
+  "bin": {
+    "nty": "bin/nty_cli.js",
+    "nty_web_ui": "bin/nty_web_ui.js",
+    "nty_gui": "bin/nty_gui.js",
+    "nty_tui": "bin/nty_tui.js"
+  },
   "scripts": {
     "clean_cli": "rm -fr core/dist",
     "build_cli": "tsc --project core/ts",
