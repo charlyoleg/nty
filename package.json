@@ -2,9 +2,10 @@
   "name": "nty",
   "version": "0.1.5",
   "description": "small and medium team organization tool",
-  "main": "index.js",
+  "main": "bin/nty_cli.js",
+  "types": "core/dist/nty.d.ts",
   "scripts": {
-    "clean_cli": "rm -fr core/build",
+    "clean_cli": "rm -fr core/dist",
     "build_cli": "tsc --project core/ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

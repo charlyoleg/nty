@@ -6,6 +6,7 @@ node_modules/
 __pycache__/
 # for sphinc-doc and others
 build/
+dist/
 # web-ui (aka front-end)
 web_ui/dist/
 # https web_server

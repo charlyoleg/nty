@@ -72,8 +72,8 @@ const argv = yargs(hideBin(process.argv))
       console.log("calling user_delete ...");
     }
   })
-  .scriptName("nty")
-  .version('0.9.8')
+  //.scriptName("nty")
+  //.version('0.9.8')
   .demandCommand(1, 1, 'You need one command before moving on')
   .strict(true)
   .argv;
