@@ -1,4 +1,3 @@
-#!/usr/bin/env ts-node
 // nty.ts
 
 import yargs from 'yargs/yargs';
