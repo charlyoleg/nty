@@ -1,6 +1,7 @@
 # .npmignore for Nty
 *~
 *.pdf
+*.tgz
 node_modules/
 # python stuff
 .venv

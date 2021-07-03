@@ -1,6 +1,7 @@
 # .gitignore for Nty
 *~
 *.pdf
+*.tgz
 node_modules/
 .venv
 __pycache__/
