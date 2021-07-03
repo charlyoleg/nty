@@ -4,6 +4,11 @@
   "description": "small and medium team organization tool",
   "main": "core/dist/nty.js",
   "types": "core/dist/nty.d.ts",
+  "files": [
+    "bin",
+    "core/dist",
+    "README.rst"
+  ],
   "bin": {
     "nty": "bin/nty_cli.js",
     "nty_web_ui": "bin/nty_web_ui.js",
