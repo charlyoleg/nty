@@ -1,6 +1,6 @@
 {
   "name": "nty",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "small and medium team organization tool",
   "main": "core/dist/nty.js",
   "types": "core/dist/nty.d.ts",
