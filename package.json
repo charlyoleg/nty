@@ -16,9 +16,9 @@
     "nty_tui": "bin/nty_tui.js"
   },
   "scripts": {
-    "prepack": "run-s clean_cli build_cli",
-    "clean_cli": "rm -fr core/dist",
-    "build_cli": "tsc --project core/ts",
+    "prepack": "run-s clean_js build_js",
+    "clean_js": "rm -fr core/dist",
+    "build_js": "tsc --project core/ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/charlyoleg/nty#readme",
   "devDependencies": {
+    "@types/express": "^4.17.12",
     "@types/node": "^16.0.0",
     "@types/yargs": "^17.0.0",
     "live-server": "^1.2.1",
@@ -41,6 +42,7 @@
     "typescript": "^4.3.4"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "stimulus": "^2.0.0",
     "yargs": "^17.0.1"
   }

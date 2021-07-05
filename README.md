@@ -32,7 +32,7 @@ In a bash terminal:
     npm install
     npm run
     npm run docs
-    npm run build_cli
+    npm run build_js
 
 
 For the web-ui:
