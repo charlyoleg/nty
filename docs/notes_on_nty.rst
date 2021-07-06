@@ -24,14 +24,21 @@ In a bash terminal::
   cd nty
   npm install
   npm run
+  npm run install_py
+  npm run clean_docs
   npm run docs
+  npm run clean_js
   npm run build_js
+  bin/nty_cli.js --help
+
 
 For the web-ui::
 
+  npm run clean_web_ui
   npm run build_web_ui
-  npm run build_web_serve
-  npm run run_web_serve
+  npm run run_web_server
+  # or alternatively
+  npm run start_web_server
 
 
 

@@ -31,6 +31,7 @@ In a bash terminal:
     cd nty
     npm install
     npm run
+    npm run install_py
     npm run docs
     npm run clean_js
     npm run build_js
