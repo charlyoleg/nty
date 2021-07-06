@@ -13,8 +13,8 @@
     "nty": "bin/nty_cli.js",
     "nty_web_ui": "bin/nty_web_ui.js",
     "nty_gui": "bin/nty_gui.js",
-    "nty_tui": "bin/nty_tui.js"
-    "open_nty_url": "bin/browser_opens_nty_url.js",
+    "nty_tui": "bin/nty_tui.js",
+    "open_nty_url": "bin/browser_opens_nty_url.js"
   },
   "scripts": {
     "install_py": "PIPENV_VENV_IN_PROJECT=1 pipenv install",
