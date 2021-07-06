@@ -19,9 +19,9 @@
     "prepack": "run-s clean_js build_js",
     "clean_js": "rm -fr core/dist",
     "build_js": "tsc --project core/ts",
-    "run_web_server": "bin/nty_web_ui.js"
+    "run_web_server": "bin/nty_web_ui.js",
     "launch_browser": "sleep 1 && sensible-browser http://localhost:8089/",
-    "start_nty_web_ui": "run-p run_nty_web_ui launch_browser",
+    "start_nty_web_ui": "run-p run_web_server launch_browser",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
