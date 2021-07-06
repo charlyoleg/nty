@@ -14,6 +14,7 @@
     "nty_web_ui": "bin/nty_web_ui.js",
     "nty_gui": "bin/nty_gui.js",
     "nty_tui": "bin/nty_tui.js"
+    "open_nty_url": "bin/browser_opens_nty_url.js",
   },
   "scripts": {
     "install_py": "PIPENV_VENV_IN_PROJECT=1 pipenv install",
@@ -24,8 +25,8 @@
     "build_js": "tsc --project core/ts",
     "clean_web_ui": "run-s clean_js",
     "build_web_ui": "run-s build_js",
-    "run_web_server": "bin/nty_web_ui.js",
-    "launch_browser": "sleep 1 && sensible-browser http://localhost:8089/",
+    "run_web_server": "node bin/nty_web_ui.js",
+    "launch_browser": "node bin/browser_opens_nty_url.js",
     "start_nty_web_ui": "run-p run_web_server launch_browser",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -51,6 +52,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "open": "^8.2.1",
     "stimulus": "^2.0.0",
     "yargs": "^17.0.1"
   }
