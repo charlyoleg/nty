@@ -33,12 +33,15 @@ In a bash terminal:
     npm run
     npm run docs
     npm run build_js
+    bin/nty_cli.js --help
 
 
 For the web-ui:
 
     npm run build_web_ui
-    npm run build_web_serve
-    npm run run_web_serve
+    npm run build_web_server
+    npm run run_web_server
+    # or alternatively
+    npm run start_web_server
 
 
