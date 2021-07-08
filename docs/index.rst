@@ -11,6 +11,7 @@ Welcome to Nty's documentation!
    :caption: Contents:
 
    notes_on_nty
+   notes_on_nty_code
 
 
 Indices and tables
