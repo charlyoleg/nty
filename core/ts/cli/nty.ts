@@ -1,11 +1,11 @@
 // nty.ts
 
-import yargs from 'yargs/yargs';
+import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
 //console.log(process.argv.slice(2));
 
-const argv = yargs(hideBin(process.argv))
+export const argv = yargs(hideBin(process.argv))
   .command({
     command: 'user_create',
     describe: 'Create a new user',
@@ -80,6 +80,6 @@ const argv = yargs(hideBin(process.argv))
 
 //debugger;
 
-console.log("end of nty.ts");
-console.log(argv);
+//console.log("end of nty.ts");
+//console.log(argv);
 
