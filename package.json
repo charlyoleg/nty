@@ -2,6 +2,7 @@
   "name": "nty",
   "version": "0.1.8",
   "description": "small and medium team organization tool",
+  "type": "module",
   "main": "core/dist/nty.js",
   "types": "core/dist/nty.d.ts",
   "files": [

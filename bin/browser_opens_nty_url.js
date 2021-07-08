@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 // browser_opens_nty_url.js
 
-const open = require('open');
+//const open = require('open'); // commonjs module
+import open from 'open'; // es6 (aka es2015) module
+
 
 
 // the javacript sleep function
