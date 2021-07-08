@@ -17,7 +17,7 @@ In a bash terminal:
 
     mkdir myteam
     cd myteam
-    mpm init -y
+    npm init -y
     npm i nty
     npx nty
     npx nty_web_ui
