@@ -7,8 +7,8 @@ console.log("Starting Nty-web-ui, the local web server of Nty, ...");
 //require('../core/dist/srv/nty_web_server.js');
 
 // the way 'es6 (aka es2015) module'
-import {make_express_app, express_listen_callback, NTY_PORT} from '../core/dist/srv/nty_web_server.js';
-const app = make_express_app();
-app.listen(NTY_PORT, express_listen_callback);
+import {generate_nty_web_server, listen_callback_function, NTY_PORT} from '../core/dist/srv/nty_web_server.js';
+const nty_app = generate_nty_web_server();
+nty_app.listen(NTY_PORT, listen_callback_function);
 
 console.log("end of nty_web_ui.js");
