@@ -13,6 +13,7 @@ async function sleep(milliseconds) {
 
 
 // main function
+// top-level await is allowed in ES-module but this iefi is kept for backward compatibility with node v12
 (async () => {
   console.log("browser_opens_nty_url.js is starting ...");
   await sleep(1000); // waiting one second
